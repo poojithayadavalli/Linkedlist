@@ -1,7 +1,7 @@
 """
-Given a linked list of n nodes, the task is to find the Next Greater Element for every node of the linked list.
+Given a linked list L of n integers, the task is to return a linked list of integers such that it contains
 
-Note: For nodes with no next greater element, store -1 in the result.
+next greater element for each element in the given linked list. If there doesn’t have any greater element for any element then insert -1 for it.
 
 Input:
 Firstline indicates the integer n
