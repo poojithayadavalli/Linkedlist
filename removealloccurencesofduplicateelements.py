@@ -59,10 +59,9 @@ class LinkedList:
         temp = None 
     def printList(self):  
         temp = self.head  
-        while(temp.next):
-            print(temp.data , end = '->') 
+        while(temp):
+            print(temp.data , end = ' ') 
             temp = temp.next
-        print(temp.data)
     def solution(self):
         for i,j in self.d.items():
             if j>1:
@@ -76,5 +75,10 @@ llist=LinkedList()
 for i in range(n-1,-1,-1):
     llist.push(arr[i])
 llist.solution()
-llist.printList()
+if llist.head!=None:
+    llist.printList()
+else:
+    print(-1)
+
+
 
