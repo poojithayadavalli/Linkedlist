@@ -13,12 +13,14 @@ print the next greater node of each node
 Examples:
 
 Input:
+3
 2 1 5
 
 Output:
 5 5 -1
 
 Input:
+5
 2 7 4 3 5
 
 Output:
